@@ -29,13 +29,20 @@ p{
 a{
     display: block;
     background-color: #FF6861;
+    border: 1px solid #FF6861;
     text-decoration: none;
     color: white;
     width: 160px;
     text-align: center;
     padding: 20px 40px;
     border-radius: 50px;
+    transition: all 0.6s;
+}
 
+a:hover{
+    color: #FF6861;
+    background-color: white;
+    border: 1px solid #FF6861;
 }
 
 
